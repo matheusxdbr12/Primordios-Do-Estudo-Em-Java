@@ -2,12 +2,18 @@ package Estudo.Matheus.Operadores;
 
 public class operadores {
     public static void main(String[] args) {
-        boolean variavel = true;
+        int a, b;
 
-        variavel = !variavel;
+         a = 6;
+         b = 6;
 
-        System.out.println(variavel);
-                    
+         String resultado = a==b ?"verdadeiro":"falso";
+         /*if(a==b)
+             resultado = "verdadeiro";
+         else
+             resultado = "falso";
+        */
+     System.out.println(resultado);                    
     }
     
 }
