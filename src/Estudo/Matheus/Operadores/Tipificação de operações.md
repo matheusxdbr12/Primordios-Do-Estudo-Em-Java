@@ -30,3 +30,38 @@
 
 ### Concatenação
 
+    public class operadores {
+    
+         public static void main(String[] args) {
+           
+             String concatenacao ="?";
+
+                 concatenacao = 1+1+1+"1";
+
+             System.out.println(concatenacao);
+
+                 concatenacao = 1+"1"+1+1;
+
+             System.out.println(concatenacao);
+
+                 concatenacao = 1+"1"+1+"1";
+
+             System.out.println(concatenacao);
+
+                 concatenacao = "1"+(1+1+1);
+
+             System.out.println(concatenacao);
+
+### Operadores Unários
+
+(+) Operador unário de valor positivos - Números são positivos ou expressão aritmética;
+
+(-) Operador unário de valor Negativo -  Nega um número ou expressão aritmética;
+
+(++) Operador unário de incremento de valor - Incrementa o valor em 1 unidade ("x+1");
+
+(--) Operador unário de decremento de valor - Decrementa o valor em uma unidade ("y-1");
+
+(!) Operador unário lógico de negação - Nega o valor de uma expressão booleana; 
+
+        
