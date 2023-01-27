@@ -64,4 +64,18 @@
 
 (!) Operador unário lógico de negação - Nega o valor de uma expressão booleana; 
 
+        int numero = 5;
         
+        numero = - numero;
+               
+        System.out.println(numero);
+
+        numero = numero * -1;
+
+        System.out.println(numero);
+
+        numero = ++ numero;
+
+        System.out.println(numero);
+
+### 
