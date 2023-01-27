@@ -78,4 +78,21 @@
 
         System.out.println(numero);
 
-### 
+### Incremento aritmético
+
+    int numero = 5;
+     
+        numero ++;
+        // (numero = numero +1)
+
+        System.out.println(++ numero);
+
+### Incremento booleano
+    
+    boolean variavel = true;
+
+        variavel = !variavel;
+
+        System.out.println(variavel);
+
+###
