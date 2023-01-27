@@ -2,15 +2,12 @@ package Estudo.Matheus.Operadores;
 
 public class operadores {
     public static void main(String[] args) {
-        int numero = 5;
-     
-        numero ++;
-        // (numero = numero +1)
+        boolean variavel = true;
 
-        System.out.println(++ numero);
-        
-    
-                
+        variavel = !variavel;
+
+        System.out.println(variavel);
+                    
     }
     
 }
