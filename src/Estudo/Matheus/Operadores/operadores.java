@@ -2,23 +2,19 @@ package Estudo.Matheus.Operadores;
 
 public class operadores {
     public static void main(String[] args) {
-        String concatenacao ="?";
+        int numero = 5;
+        
+        numero = - numero;
+               
+        System.out.println(numero);
 
-        concatenacao = 1+1+1+"1";
+        numero = numero * -1;
 
-        System.out.println(concatenacao);
+        System.out.println(numero);
 
-        concatenacao = 1+"1"+1+1;
+        numero = ++ numero;
 
-        System.out.println(concatenacao);
-
-        concatenacao = 1+"1"+1+"1";
-
-        System.out.println(concatenacao);
-
-        concatenacao = "1"+(1+1+1);
-
-        System.out.println(concatenacao);
+        System.out.println(numero);
                 
     }
     
