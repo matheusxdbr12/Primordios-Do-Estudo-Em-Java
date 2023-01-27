@@ -20,6 +20,13 @@
 ## Utilização de Operador de Adição, em Texto
 
 ### Ele unifica os textos para formação de uma palavra
-    
+
     Ex: string nomeCompleto = "Linguagem " + "Java"; 
     Ex: string nomeDaLoja = "Big " + "Bom " + "Preço";
+
+     public static void main(String[] args) {
+         String nomeCompleto = "Linguaguem " + "Java";
+         System.out.print(nomeCompleto);
+
+### Concatenação
+
