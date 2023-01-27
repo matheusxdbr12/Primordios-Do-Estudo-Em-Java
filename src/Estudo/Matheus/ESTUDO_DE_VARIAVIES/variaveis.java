@@ -3,6 +3,9 @@ package Estudo.Matheus.ESTUDO_DE_VARIAVIES;
 public class variaveis{     
   
 public static void main(String[] args) throws Exception {
+    
+     String meuNome = "Matheus de Souza";  
+    
         double salarioMinimo = 2800;
 
         short numeroCurto = 1;
