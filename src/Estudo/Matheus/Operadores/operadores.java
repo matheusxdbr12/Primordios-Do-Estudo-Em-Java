@@ -2,41 +2,17 @@ package Estudo.Matheus.Operadores;
 
 public class operadores {
     public static void main(String[] args) {
-        String nome1 = "Matheus";
-        String nome2 = new String("Matheus");
+        boolean condicao1 = true;
 
-        System.out.println(nome1.equals(nome2));
-             
-        int numero1 = 1;                   
-        int numero2 = 2;
+        boolean condicao2 = false;
 
-        boolean simNao = numero1 == numero2;
-
-        if(numero1 < numero2){
-            System.out.println("A nossa condição é verdadeira!");
+        if(condicao1 && (7 > 4)){  // Verificando as duas condições para vê se são verdadeiras
+            System.out.println("As duas condições são verdadeiras");
         }
-        
-        System.out.println("Número 1 é igual ao número 2? " + simNao);
-
-        simNao = numero1 != numero2;
-        
-        System.out.println("Número 1 é diferente ao número 2? " + simNao);
-
-        simNao = numero1 > numero2;
-        
-        System.out.println("Número 1 é maior que número 2? " + simNao);
-
-        simNao = numero1 < numero2;
-        
-        System.out.println("Número 1 é menor que número 2? " + simNao);
-
-        simNao = numero1 >= numero2;
-        
-        System.out.println("Número 1 é maior ou igual ao número 2? " + simNao);
-
-        simNao = numero1 <= numero2;
-        
-        System.out.println("Número 1 é menor ou igual ao número 2? " + simNao);
+        if(condicao1 || condicao2){ // Verificando se há alguma condição verdadeira
+            System.out.println("Uma das condições é verdadeiras");
+        }
+             System.out.println("Fim!");
     }
     
 }
