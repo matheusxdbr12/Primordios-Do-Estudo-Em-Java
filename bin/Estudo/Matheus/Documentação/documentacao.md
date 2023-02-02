@@ -45,4 +45,4 @@ JavaDoc
 Criando nossa documentação no formato html para disponibilizar via Web.
 
 > No terminal execute o comando abaixo
-> javadoc -encoding UTF-8 -decencoding ISO-8859-1 -d ../docs src/*.java
+> javadoc -encoding UTF-8 -docencoding ISO-8859-1 -d ../docs src/*.java
